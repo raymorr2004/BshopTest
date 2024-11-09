@@ -266,6 +266,14 @@ width: 2vw;
 max-width:10vw;
 } 
 
+.article-nav > * {
+    visibility:hidden;
+}
+
+.article-nav:hover > * {
+    visibility: visible;
+}
+
 .article-nav:hover {
     width:10vw;
     align-items: center;
@@ -281,6 +289,7 @@ list-style-type: none;
 margin: 30px 0;
 background-color: #15CCEB;
 font-size: 1.1rem;
+text-align: center;
    }
 
 .article-nav li a {
